@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--<link rel="stylesheet" type="text/css" href="styles.css">-->
+        <style type = "text/css">
+            h1 {
+                color: red;
+                text-align: center;
+                font-family: verdana;
+                font-size: 25px;
+                writing-mode: vertical-rl;
+                text-orientation: mixed;
+            }
+            
+            form{
+                color: black;
+                text-align: center;
+                font-family: verdana;
+                font-size: 20px;
+            }
+            
+            input{
+                color: red;
+                background-color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <br>
+        <h1>Cadastro de usuário:</h1>
+        <form method = "post" action = "DadosCadastrados"> 
+            <table cellspacing = "10" width = 25% align = center>
+                <tr>
+                    <th>
+                        Nome:
+                    </th>
+                    <td>
+                        <input type="text" name="nome"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Email:
+                    </th>
+                    <td>
+                        <input type="email" name="email"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Senha:
+                    </th>
+                    <td>
+                        <input type="password" name="senha"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <input type = "reset" value = "Limpar">
+                    </th>
+                    <th>
+                        <input type = "submit" value = "Enviar">
+                    </th>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
